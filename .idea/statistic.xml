@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/../demo_ad_sdk" />
+        <option value="$PROJECT_DIR$/../FJNI" />
+        <option value="$PROJECT_DIR$/../From_JNI" />
+        <option value="$PROJECT_DIR$/../G_JNI" />
+        <option value="$PROJECT_DIR$/../Go_JNI" />
+        <option value="$PROJECT_DIR$/../hc" />
+        <option value="$PROJECT_DIR$/../HC_module" />
+        <option value="$PROJECT_DIR$/../hcpda" />
+        <option value="$PROJECT_DIR$/../JNI" />
+        <option value="$PROJECT_DIR$/../JNII" />
+        <option value="$PROJECT_DIR$/../MyJNI" />
+        <option value="$PROJECT_DIR$/../R_JNI" />
+        <option value="$PROJECT_DIR$/../sigu" />
+        <option value="$PROJECT_DIR$/../sigukehu" />
+        <option value="$PROJECT_DIR$/../SMR_nfc" />
+        <option value="$PROJECT_DIR$/../T_JNI" />
+      </list>
+    </option>
+  </component>
+</project>

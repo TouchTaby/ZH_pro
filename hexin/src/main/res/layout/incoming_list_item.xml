@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    >
+   <TextView
+    android:id="@+id/tvIndex"
+    android:layout_width="40dp"
+     android:layout_height="40dp"
+    android:text="" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvWS"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvYS"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvSpecification"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvLevel"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvWide"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvProID"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+ <TextView
+     android:visibility="gone"
+     android:id="@+id/tvRowCd"
+     android:layout_width="40dp"
+     android:layout_height="wrap_content"
+     android:text="" />
+
+</LinearLayout>

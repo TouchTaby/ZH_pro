@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:visibility="gone"
+     android:orientation="horizontal"
+    android:background="#AAAAAA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    >
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="序号" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="物料名称"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="未发"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="库存"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="发货"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="批号"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        >
+    <TextView
+        android:id="@+id/tvStockIndex"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/_StockProdID"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:text=""
+        />
+    <TextView
+        android:gravity="center"
+        android:visibility="visible"
+        android:id="@+id/_StockProdName"
+        android:layout_height="40dp"
+        android:layout_width="37dp"
+        android:layout_gravity="center"
+        android:text=""
+        />
+   <TextView
+            android:gravity="center"
+            android:visibility="visible"
+            android:id="@+id/_StockNuber"
+            android:layout_height="40dp"
+            android:layout_width="37dp"
+            android:layout_gravity="center"
+            android:text=""
+            />
+
+    </LinearLayout>
+</LinearLayout>

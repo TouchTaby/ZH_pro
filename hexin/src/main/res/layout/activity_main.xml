@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+        <LinearLayout
+            android:id="@+id/llIncoming"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/cg"  />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="采购收货"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llOutGoing"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/ck"  />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="销售发货"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llStock"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/pd"  />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="库存盘点"/>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/llDownLoad"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/down"  />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="下载数据"/>
+        </LinearLayout>
+    </GridLayout>
+
+
+
+</LinearLayout>
+    <!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    -->

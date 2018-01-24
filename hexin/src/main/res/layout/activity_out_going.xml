@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.stockmanage.activity.OutGoingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单据类型"/>
+            <EditText
+                android:id="@+id/etTypeId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+       <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="发货单号"/>
+        <com.example.stockmanage.view.SpinerPopWindow
+            android:id="@+id/spwOutGingBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="客户代码"/>
+                <EditText
+                    android:id="@+id/edCustId"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="客        户"/>
+                <EditText
+                    android:textSize="15sp"
+                    android:id="@+id/etCustNm"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="仓库ID"/>
+              <EditText
+                  android:id="@+id/etStockID"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="仓        库"/>
+                <com.example.stockmanage.view.SpinerPopWindow
+                    android:id="@+id/spwWhsNm"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="条码扫描"/>
+                <EditText
+                    android:singleLine="true"
+                    android:textSize="15sp"
+                    android:id="@+id/etProdId"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="物料名称"/>
+                <EditText
+                    android:id="@+id/etProdNmOut"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="规格"/>
+                            <EditText
+                                android:textSize="15sp"
+                                android:id="@+id/etProdSpecOut"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="等级"/>
+                            <EditText
+                                android:textSize="15sp"
+                                android:id="@+id/etCU_dengjiOut"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宽幅"/>
+                            <EditText
+                                android:textSize="15sp"
+                                android:id="@+id/etCU_mm"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+            </LinearLayout>
+  <ScrollView
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="#AAAAAA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        >
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="序号" />
+                        <TextView
+                            android:id="@+id/tvName"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="物料名称"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="37dp"
+                            android:layout_height="wrap_content"
+                            android:text="未发"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="37dp"
+                            android:layout_height="wrap_content"
+                            android:text="库存"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="37dp"
+                            android:layout_height="wrap_content"
+                            android:text="发货"
+                            />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="批号"
+                            />
+                    </LinearLayout>
+                    <ListView
+                        android:gravity="center"
+                        android:id="@+id/lvListData"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        />
+          </LinearLayout>
+    </ScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:text="提交"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
